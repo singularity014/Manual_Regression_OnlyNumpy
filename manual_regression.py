@@ -163,7 +163,6 @@ print (weights, biases)
 
 
 # We print the outputs and the targets in order to see if they have a linear relationship.
-# Again, that's not needed. Moreover, in later lectures, that would not even be possible.
 plt.plot(outputs,targets)
 plt.xlabel('outputs')
 plt.ylabel('targets')
