@@ -9,7 +9,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-
 # GENERATE INPUT OBSERVATIONS (two variable x and z)
 
 # First, we should declare a variable containing the size of the training set we want to generate.
@@ -111,8 +110,7 @@ learning_rate = 0.02
 # The proper number of iterations is something we will talk about later on, but generally
 # a lower learning rate would need more iterations, while a higher learning rate would need less iterations
 # keep in mind that a high learning rate may cause the loss to diverge to infinity, instead of converge to 0.
-for i in range (100):
-    
+for i in range (100): 
     # This is the linear model: y = xw + b equation
     outputs = np.dot(inputs,weights) + biases
     # The deltas are the differences between the outputs and the targets
