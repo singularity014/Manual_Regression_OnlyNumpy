@@ -32,6 +32,7 @@ print (inputs.shape)
 
 # GENERATE TARGETS --
 
+
 # We want to "make up" a function, use the ML methodology, and see if the algorithm has learned it.
 # We add a small random noise to the function i.e. f(x,z) = 2x - 3z + 5 + <small noise>
 noise = np.random.uniform(-1, 1, (observations,1))
